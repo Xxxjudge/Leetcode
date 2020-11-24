@@ -5,7 +5,7 @@ public:
             left--;
             right++;
         }
-        return {left++,right--};
+        return {left+1,right-1};
     }
     string longestPalindrome(string s) {
         int start=0,end=0;
