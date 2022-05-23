@@ -7,8 +7,8 @@
 // @lc code=start
 class Solution {
     int dfs(long n) {
-        if(n==1) return 0;
-        if(n==2) return 1;
+        if(n==1L) return 0;
+        if(n==2L) return 1;
         // if(n==(INT_MAX-1)) return dfs(n-1)+1;
         // if(n==(2147483647)) return dfs(n-1)+1;
         if(n%2==0) return dfs(n/2)+1;
